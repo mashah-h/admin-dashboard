@@ -1,4 +1,5 @@
-function RecentActivity() {
+function RecentActivity({ data = [] }) {
+    
     return(
         <div className="bg-white p-5 rounded-xl shadow overflow-x-auto">
             <h3 className="text-lg font-semibold mb-4">Recent Activity</h3>

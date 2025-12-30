@@ -3,7 +3,7 @@ import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContai
 
 function AnalyticsChart({data,title}){
     return(
-        <div className="big-white p-5 rounded-xl shadow">
+        <div className="bg-white p-5 rounded-xl shadow">
             <h3 className="text-lg font-semibold mb-4">{title}</h3>
             <ResponsiveContainer width="100%" height={300}>
                 <LineChart data={data} margin={{ top: 5, right: 20, left: 0, bottom: 5 }}>
